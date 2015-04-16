@@ -1,0 +1,42 @@
+<!-- layout that defines how the user's city's are displayed, this goes into city_search list
+    to make up the intro screen's layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/thumb" />
+    <TextView android:id="@+id/display_city"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="City Name" />
+    <TextView android:id="@+id/display_zone"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Zone" />
+    <TextView android:id="@+id/display_gmtOffset"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="GMT Offset" />
+    <TextView android:id="@+id/display_time"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Time" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:onClick="deleteCity"/>
+
+
+
+</LinearLayout>

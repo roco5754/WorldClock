@@ -1,0 +1,8 @@
+<!-- leftover code from attempts to get flickr api to work, autocreated by android sdk when I made an activity -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="rcorona.worldclock.doFlickr">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
